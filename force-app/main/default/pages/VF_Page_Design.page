@@ -1,0 +1,34 @@
+<apex:page >
+    <p>
+        Test VF Page
+    </p>
+<apex:pageBlock title="A Block of title">
+    <apex:pageBlockSection title="First section title">
+        {! $user.FirstName & '-' & $user.LastName}
+        <p>
+            Todays date is {! today()}
+        </p>
+        <p>
+            Current Year is {! Year(Today())}
+        </p>
+        <p>
+            The Square of 36 is {! SQRT(36)}
+        </p>
+   		 <p>
+        
+        {! IF (contains('Salesforce.com', 'Force.com'),'Yes','No')} 
+        </p>
+        <p>
+           
+            {! IF ($user.isActive, $user.username, 'inActive')}
+           
+        </p>
+      
+    </apex:pageBlockSection>
+    <apex:pageBlockSection title="Second Section of title">
+        Hello, Here is second section of title
+    
+    </apex:pageBlockSection>
+    
+    </apex:pageBlock>
+</apex:page>

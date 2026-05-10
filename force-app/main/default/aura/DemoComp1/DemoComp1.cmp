@@ -1,0 +1,11 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" 
+                access="global" >
+	<h1>
+		Header Tag    
+    </h1>
+    
+    <p>
+    Paragaraph Tag
+    </p>
+
+</aura:component>

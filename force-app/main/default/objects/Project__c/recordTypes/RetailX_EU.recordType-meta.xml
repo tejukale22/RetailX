@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RetailX_EU</fullName>
+    <active>true</active>
+    <description>Project is related to the Europe region</description>
+    <label>RetailX EU</label>
+    <picklistValues>
+        <picklist>Project_Status__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress%2C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started%2C</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
